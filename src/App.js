@@ -12,9 +12,9 @@ function App() {
   ]);
 
   // Function to reverse the list order
-  const reverseList = () => {
-    setInterests([...interests].reverse());
-  };
+  // const reverseList = () => {
+  //   setInterests([...interests].reverse());
+  // };
 
   return (
     <div className="App">
@@ -33,7 +33,7 @@ function App() {
             <li key={index}>{interest}</li>
           ))}
         </ul>
-        <button onClick={reverseList}>Reverse List Order</button>
+        {/* <button onClick={reverseList}>Reverse List Order</button> */}
       </header>
     </div>
   );
