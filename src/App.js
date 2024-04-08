@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Helloooo! Welcome to My Website!</h1>
-        <p>I'm Tushar! I am currently a Junior studying CSSE at UWB. I love to go to the gym, hang out with my friends, and spend time outside. I love to snowboard with my friends, and even though it is something I picked up this season, I think I will be snowboarding for a good while</p>
+        <p>I'm Tushar Ganta! I am currently a Junior studying CSSE at UWB. I love to go to the gym, hang out with my friends, and spend time outside. I love to snowboard with my friends, and even though it is something I picked up this season, I think I will be snowboarding for a good while</p>
         
         <figure>
           <img src={snowboardImage} alt="Me at Snoqualmie Pass" style={{ width: '200px', borderRadius: '10px' }} />
