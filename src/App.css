@@ -34,6 +34,32 @@
   color: #61dafb;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ThingsToRead ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.ThingsToRead a {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.ThingsToRead a:hover {
+  color: #ff5722;
+  text-decoration: underline;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
