@@ -1,0 +1,83 @@
+.biryani-page .page-container {
+  background-color: #282c34;
+  /* Dark background */
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.biryani-page h1 {
+  font-size: 4em;
+  /* Twice the normal size */
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  /* Add left padding to the main title */
+}
+
+.biryani-page h2 {
+  margin: 20px 0;
+  text-align: left;
+  padding-left: 20px;
+  /* Left-align the subheadings */
+}
+
+.biryani-page p,
+.biryani-page ul {
+  margin: 20px 0;
+}
+
+.biryani-page ul {
+  list-style-type: disc;
+  /* Adds bullet points */
+  padding-left: 40px;
+}
+
+.biryani-page img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.biryani-page .intro-section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.biryani-page .intro-section img {
+  flex: 1 1 40%;
+  margin-right: 20px;
+}
+
+.biryani-page .highlight {
+  background-color: #1a1a2e;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1 1 60%;
+  /* Adjust to balance the space with the image */
+}
+
+.biryani-page .image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.biryani-page .image-container img {
+  flex: 1;
+  margin: 10px;
+}
+
+.biryani-page a {
+  color: #f792ef;
+  /* Light pink */
+  text-decoration: none;
+}
+
+.biryani-page a:hover {
+  color: #ff99ff;
+  /* Slightly lighter pink on hover */
+}

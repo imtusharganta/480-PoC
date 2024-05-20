@@ -1,3 +1,4 @@
+/* General App Styles */
 .App {
   text-align: center;
 }
@@ -34,12 +35,35 @@
   color: #61dafb;
 }
 
+/* Navigation Bar Styles */
+nav {
+  background-color: #1a1a2e;
+  /* Darker blue */
+  padding: 1em;
+}
+
 nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
   list-style-type: none;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f792ef;
+  /* Light pink */
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ff99ff;
+  /* Slightly lighter pink on hover */
 }
 
 .ThingsToRead ul {
@@ -64,6 +88,7 @@ nav ul {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
